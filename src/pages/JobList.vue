@@ -1,7 +1,7 @@
 <template>
-  <div class="pt-4">
+  <div class="py-4">
     <div class="row mb-4">
-      <h1>Job Opportunities</h1>
+      <h1 class="mb-3 fw-bold">Job Opportunities</h1>
       <p>
         Explore exciting job opportunities at ABM, where innovation meets
         growth. Join our team to work on impactful projects and unlock your
@@ -13,14 +13,19 @@
     </div>
 
     <div class="row">
-      <div class="col-md-3 col-12 ps-4">
-        <div class="mb-3">
+      <div
+        class="col-md-3 col-12 ps-4 pe-4 bg-white rounded-3 shadow-sm"
+        style="height: fit-content"
+      >
+        <div class="mb-3 pt-3">
           <h5 class="fw-semibold">Filters</h5>
         </div>
-        <SearchBar @search="handleSearch" />
+        <div class="pb-3">
+          <SearchBar @search="handleSearch" />
+        </div>
         <JobFilterSidebar @update-filters="handleFilterChange" />
       </div>
-      <div class="col-md-9 col-12 job-content">
+      <div class="col-md-9 col-12">
         <div v-if="filteredJobs.length > 0">
           <JobCard v-for="job in paginatedJobs" :key="job.id" :job="job" />
         </div>
@@ -101,7 +106,6 @@ const changePage = (page) => {
 .job-content {
   /* No border or padding on mobile by default */
   border-left: none;
-  /* padding-left: 0; */
 }
 
 /* For screen width 768px and above (md+) */
@@ -116,7 +120,17 @@ const changePage = (page) => {
 .footer-space {
   margin-bottom: 2rem;
 }
-.job-section-background {
-  background-color: rgb(239, 247, 255);
+
+/* Custom styling for the filter container */
+.bg-white {
+  background-color: white;
+}
+
+.rounded-3 {
+  border-radius: 0.5rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 </style>

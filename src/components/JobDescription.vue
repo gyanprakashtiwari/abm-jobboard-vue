@@ -1,5 +1,5 @@
 <template>
-  <div class="card border-0">
+  <div class="card border-0 p-4">
     <div class="card-body p-0">
       <!-- Added p-0 class here -->
       <div class="d-flex justify-content-between align-items-center mb-3">
@@ -16,8 +16,6 @@
       <div class="card-text" v-html="formattedDescription"></div>
     </div>
   </div>
- 
-  
 </template>
 
 <script setup>

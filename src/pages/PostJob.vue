@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4">
+  <div class="py-4">
     <div class="row justify-content-center">
       <div class="col-md-8">
         <h2 class="mb-4">Post a Job</h2>
