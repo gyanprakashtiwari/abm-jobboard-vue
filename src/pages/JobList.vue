@@ -1,20 +1,26 @@
 <template>
-  <div class="mt-4">
-    <div class="row">
-      <SearchBar @search="handleSearch" />
+  <div class="pt-4">
+    <div class="row mb-4">
+      <h1>Job Opportunities</h1>
+      <p>
+        Explore exciting job opportunities at ABM, where innovation meets
+        growth. Join our team to work on impactful projects and unlock your
+        career potential! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Voluptate iure non ullam, quas fuga debitis nobis in doloremque
+        quia obcaecati similique ex esse consequuntur dolorum perspiciatis
+        voluptatem ducimus libero officiis.
+      </p>
     </div>
+
     <div class="row">
-      <div class="col-md-3 col-12">
+      <div class="col-md-3 col-12 ps-4">
         <div class="mb-3">
           <h5 class="fw-semibold">Filters</h5>
         </div>
+        <SearchBar @search="handleSearch" />
         <JobFilterSidebar @update-filters="handleFilterChange" />
       </div>
       <div class="col-md-9 col-12 job-content">
-        <div class="mb-3">
-          <h5 class="fw-semibold">Jobss</h5>
-        </div>
-
         <div v-if="filteredJobs.length > 0">
           <JobCard v-for="job in paginatedJobs" :key="job.id" :job="job" />
         </div>
@@ -28,7 +34,6 @@
         />
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -110,5 +115,8 @@ const changePage = (page) => {
 /* Footer space styling */
 .footer-space {
   margin-bottom: 2rem;
+}
+.job-section-background {
+  background-color: rgb(239, 247, 255);
 }
 </style>

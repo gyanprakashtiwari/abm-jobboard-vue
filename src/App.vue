@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white mb-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border shadow-sm">
     <div class="container">
       <router-link to="/" class="navbar-brand text-dark">
         <h1>Job Board</h1>
@@ -36,9 +36,12 @@
     </div>
   </nav>
 
-  <div class="container">
-    <router-view></router-view>
+  <div class="job-section-background">
+    <div class="container">
+      <router-view></router-view>
+    </div>
   </div>
+
   <!-- Footer space added here -->
   <div class="footer-space mt-5 py-4">
     <div class="text-center text-muted small">
@@ -61,5 +64,8 @@ export default {
 .nav-link.router-link-exact-active {
   color: var(--bs-primary) !important;
   font-weight: 600;
+}
+.job-section-background {
+  background-color: rgb(239, 247, 255);
 }
 </style>
