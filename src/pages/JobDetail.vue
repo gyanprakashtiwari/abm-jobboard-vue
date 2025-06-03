@@ -182,7 +182,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-12 order-1 order-md-2">
+      <div class="col-md-4 col-12 order-1 order-md-2 mb-md-0 mb-4">
         <div
           class="border bg-white rounded-3 d-flex flex-column px-5 py-4 gap-1"
         >
