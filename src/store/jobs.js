@@ -15,7 +15,7 @@ export const useJobsStore = defineStore("jobs", () => {
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript",
     },
     {
       id: 2,
