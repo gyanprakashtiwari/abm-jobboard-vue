@@ -1,7 +1,6 @@
 <template>
   <div class="card border-0 p-4">
     <div class="card-body p-0">
-      <!-- Added p-0 class here -->
       <div class="d-flex justify-content-between align-items-center mb-3">
         <h2 class="card-title mb-0">{{ job.title }}</h2>
         <h4 class="card-subtitle text-muted mb-0">{{ job.postDate }}</h4>
