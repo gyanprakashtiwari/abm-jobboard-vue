@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class="d-flex flex-wrap gap-5 mb-3 text-muted">
+      <div class="d-flex flex-wrap gap-3 mb-3 text-muted">
         <div class="d-flex align-items-center">
           <img
             src="../assets/icons/location.png"
