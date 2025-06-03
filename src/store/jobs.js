@@ -11,10 +11,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "UP",
       type: "Part-time",
       postDate: "2 days ago",
+      experienceRequired: "3-5 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 2,
@@ -24,12 +25,12 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "KA",
       type: "Full-time",
       postDate: "2 weeks ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
-
     {
       id: 3,
       title: "Fullstack Developer",
@@ -38,10 +39,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "4-6 years of experience in Fullstack Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 4,
@@ -51,10 +53,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "KA",
       type: "Full-time",
       postDate: "3 weeks ago",
+      experienceRequired: "5-8 years of experience in DevOps Engineering",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 5,
@@ -64,10 +67,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 6,
@@ -77,10 +81,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 7,
@@ -90,10 +95,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 8,
@@ -103,10 +109,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 9,
@@ -116,10 +123,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 week ago",
+      experienceRequired: "5-10 years of experience in Software Development",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
     {
       id: 10,
@@ -129,10 +137,11 @@ export const useJobsStore = defineStore("jobs", () => {
       state: "HR",
       type: "Full-time",
       postDate: "1 month ago",
+      experienceRequired: "10+ years of experience in Software Engineering",
       description:
         "We are looking for a skilled frontend developer with Vue.js experience.",
       fullDescription:
-        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript. You will work with a talented team of developers and designers to create beautiful, responsive user interfaces.     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias odit est, in reprehenderit saepe dolor eius a id minus, corrupti architecto sint, assumenda eligendi explicabo vel repellat voluptas cupiditate maxime!",
+        "Ho Join our team to build amazing web applications using Vue 3, Vite, and modern JavaScript...",
     },
   ]);
 
