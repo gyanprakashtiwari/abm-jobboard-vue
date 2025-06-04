@@ -44,18 +44,22 @@
     </nav>
   </header>
 
-  <div class="job-section-background pt-5" style="margin-top: 81px">
-    <div class="container">
+  <body class="job-section-background">
+    <div class="container pt-5" style="margin-top: 81px">
+      <!-- <div class=""> -->
       <router-view></router-view>
+      <!-- </div> -->
     </div>
-  </div>
+  </body>
 
   <!-- Footer space added here -->
-  <div class="footer-space mt-5 py-4">
-    <div class="text-center text-muted small">
-      <!-- © 2025 Job Board. All rights reserved. -->
+  <footer>
+    <div class="footer-space mt-5 py-4">
+      <div class="text-center text-muted small">
+        <!-- © 2025 Job Board. All rights reserved. -->
+      </div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -75,5 +79,8 @@ export default {
 }
 .job-section-background {
   background-color: rgb(239, 247, 255);
+}
+.body {
+  background-color: rgb(239, 247, 255) !important;
 }
 </style>
