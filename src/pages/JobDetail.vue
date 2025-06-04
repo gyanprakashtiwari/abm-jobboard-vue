@@ -184,7 +184,7 @@
 
       <!-- Right sticky sidebar -->
       <div class="col-md-4 col-12 order-1 order-md-2 mb-md-0 mb-4">
-        <div class="position-sticky" style="top: 1rem" id="sidebar">
+        <div class="position-sticky" style="top: 81px" id="sidebar">
           <div
             class="border bg-white rounded-3 d-flex flex-column px-5 py-4 gap-1"
           >
